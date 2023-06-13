@@ -1,6 +1,6 @@
-type Saying = { base: string; alt: string };
+export type Saying = { base: string; alt: string };
 
-type Sayings = Saying[];
+export type Sayings = Saying[];
 
 export const sayings: Sayings = [
 	{ base: 'a caravana passa e os cães ladram', alt: 'os caes passam e a caravana ladra' },
